@@ -97,7 +97,8 @@ a.pure-button-primary:hover {
 /* PROJECTS */
 .carousel-container {
   padding: 0px 90px;
-  margin: 30px 0 50px;
+  max-width: 950px;
+  margin: 30px auto 50px;
 }
 
 .project-thumbnail-container {
