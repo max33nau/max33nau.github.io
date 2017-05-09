@@ -1,0 +1,183 @@
+/* GLOBAL */
+
+html {
+  height: 100%;
+}
+
+.ribbon {
+  background-color: #353535;
+}
+
+.content-subhead {
+  color: #000;
+  font-size: 24px;
+}
+
+.ribbon .content-subhead {
+  color: #fff;
+}
+
+/* END OF GLOBAL */
+
+/* NAV BAR */
+.home-menu {
+  background-color: #000;
+}
+
+.pure-menu-heading {
+  color: #fff;
+}
+
+.social-media-icon {
+  font-size: 20px;
+}
+
+.home-menu span,
+.home-menu a,
+.home-menu li {
+  color: #fff;
+}
+.home-menu li a:hover, .home-menu li:hover {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: #0bff00;
+}
+
+
+
+
+/* END OF NAVBAR */
+
+/* SPLASH CONTAINER */
+
+.code-case-block {
+  color: #ffa42a;
+}
+
+.code-function {
+  color: cornflowerblue;
+}
+
+a.pure-button-primary {
+  background: white;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 120%;
+}
+
+a.pure-button-primary:hover {
+  text-decoration: none;
+}
+
+.splash-container {
+  background-image: url('../images/main-bg-basketball.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.splash-subhead {
+  opacity: 1;
+  color: white;
+  text-transform: none;
+}
+
+/* END OF SPLASH CONTAINER */
+
+/* ABOUT ME */
+
+.profile-pic {
+  border-radius: 20px;
+}
+
+/* END OF ABOUT ME */
+
+/* PROJECTS */
+.carousel-container {
+  padding: 0px 90px;
+  margin: 30px 0 50px;
+}
+
+.project-thumbnail-container {
+  max-height: 400px;
+}
+
+.carousel {
+  -webkit-box-shadow: 0px 0px 23px 5px #aaa;
+  -moz-box-shadow: 0px 0px 23px 5px #ccc;
+  box-shadow: 0px 0px 23px 5px #ccc;
+}
+
+/* END OF PROJECTS */
+
+
+/* EDUCATION */
+
+.education-thumbnail {
+  vertical-align: middle;
+  width: 80px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.date {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.date-cf {
+  margin-top: 30px;
+}
+
+.date-nau {
+  margin-top: 25px;
+}
+
+/* END OF EDUCATION */
+
+/* WORK EXPERIENCE */
+.job-subhead {
+  font-size: 16px;
+}
+
+.job-thumbnail {
+  max-width: 60px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.eleven-thumbnail {
+  width: 90px;
+}
+
+.date-job-cf {
+  margin-top: 18px;
+}
+
+.date-baskets {
+  margin-top: 23px;
+}
+
+.job-name {
+  font-style: italic;
+}
+
+
+/* MEDIUM SIZE AND BELOW DEVICES */
+@media only screen and (max-width: 767px) {
+  .pure-menu-list {
+    display: block !important;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .carousel-container {
+    padding: 0px;
+  }
+}
