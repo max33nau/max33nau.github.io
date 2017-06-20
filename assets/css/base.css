@@ -17,6 +17,14 @@ html {
   color: #fff;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /* END OF GLOBAL */
 
 /* NAV BAR */
@@ -26,10 +34,17 @@ html {
 
 .pure-menu-heading {
   color: #fff;
+  padding: 5px;
+  margin-left: 10px;
 }
 
 .social-media-icon {
   font-size: 20px;
+}
+
+
+.home-menu ul {
+  margin-right: 10px;
 }
 
 .home-menu span,
@@ -37,6 +52,11 @@ html {
 .home-menu li {
   color: #fff;
 }
+
+.pure-menu-link {
+  padding: 5px;
+}
+
 .home-menu li a:hover, .home-menu li:hover {
   background: none;
   border: none;
@@ -103,12 +123,17 @@ a.pure-button-primary:hover {
 
 .project-thumbnail-container {
   max-height: 400px;
+  min-height: 400px;
 }
 
 .carousel {
   -webkit-box-shadow: 0px 0px 23px 5px #aaa;
   -moz-box-shadow: 0px 0px 23px 5px #ccc;
   box-shadow: 0px 0px 23px 5px #ccc;
+}
+
+.project-thumbnail {
+  width: 100%;
 }
 
 /* END OF PROJECTS */
@@ -146,12 +171,13 @@ a.pure-button-primary:hover {
 }
 
 .job-thumbnail {
-  max-width: 60px;
+  max-width: 55px;
   vertical-align: middle;
   margin-right: 5px;
 }
 
 .eleven-thumbnail {
+  max-width: none;
   width: 90px;
 }
 
@@ -166,6 +192,36 @@ a.pure-button-primary:hover {
 .job-name {
   font-style: italic;
 }
+
+/* SKILLSET */
+
+/*.justify-content {
+  display: flex;
+  justify-content: center;
+}*/
+
+.pie-chart-canvas {
+  display: inline-block !important;
+  max-width: 300px;
+}
+
+.bar-chart-canvas {
+  display: inline-block !important;
+  max-width: 600px;
+}
+
+#frontendChart {
+  margin-right: 50px;
+}
+
+#backendChart {
+  margin-left: 50px;
+}
+
+#extraChart {
+  margin-top: 50px;
+}
+
 
 
 /* MEDIUM SIZE AND BELOW DEVICES */

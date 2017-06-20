@@ -22,20 +22,20 @@
   <body id="home">
     <div class="header">
       <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <span class="pure-menu-heading" href=""><i class="fa fa-code" aria-hidden="true"></i> Max Jacobsen</span>
-          <ul class="pure-menu-list">
-            <li class="pure-menu-item">
-              <a href="https://github.com/max33nau" target="_blank" class="pure-menu-link">
-                <i class="fa fa-github social-media-icon" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="pure-menu-item">
-              <a href="https://www.linkedin.com/in/maxjacobsen33/" target="_blank" class="pure-menu-link">
-                <i class="fa fa-linkedin social-media-icon" aria-hidden="true"></i>
-              </a>
-            </li>
+        <span class="pure-menu-heading"  href=""><i class="fa fa-code" aria-hidden="true"></i> Max Jacobsen</span>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a href="https://github.com/max33nau" target="_blank" class="pure-menu-link">
+              <i class="fa fa-github social-media-icon" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="https://www.linkedin.com/in/maxjacobsen33/" target="_blank" class="pure-menu-link">
+              <i class="fa fa-linkedin social-media-icon" aria-hidden="true"></i>
+            </a>
+          </li>
 
-          </ul>
+        </ul>
       </div>
     </div>
 
@@ -52,7 +52,7 @@
             <span class="code-case-block"> } </span>
           </p>
           <p>
-            <a href="#" class="pure-button pure-button-primary"> View Projects </a>
+            <a href="#" id="viewProjects" class="pure-button pure-button-primary"> View Projects </a>
           </p>
       </div>
     </div>
@@ -87,51 +87,51 @@
 
 
       <div class="ribbon content" id="projects">
-          <h2 class="content-head is-center">Projects </h2>
-          <div class="pure-g">
-              <div class="l-box-lrg pure-u-1 carousel-container">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item project-thumbnail-container active">
-                    <img class="d-block img-fluid project-thumbnail"  src="./assets/images/projects/project1.jpg" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3>Project 1</h3>
-                      <p>Details about project 1 would go here</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item project-thumbnail-container">
-                    <img class="d-block img-fluid project-thumbnail"  src="./assets/images/projects/project2.jpg" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3>Project 2</h3>
-                      <p>Details about project 2 would go here</p>
-                    </div
-                  </div>
-                  <div class="carousel-item project-thumbnail-container">
-                    <img class="d-block img-fluid project-thumbnail"  src="./assets/images/projects/project3.jpg" alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3>Project 3</h3>
-                      <p>Details about project 3 would go here</p>
-                    </div>
+        <h2 class="content-head is-center">Projects </h2>
+        <div class="pure-g">
+          <div class="l-box-lrg pure-u-1 carousel-container">
+            <div id="carouselProjects" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselProjects" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselProjects" data-slide-to="1"></li>
+                <li data-target="#carouselProjects" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item project-thumbnail-container active">
+                  <img class="d-block img-fluid project-thumbnail"  src="./assets/images/projects/project1.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Project 1</h3>
+                    <p>Details about project 1 would go here</p>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                <div class="carousel-item project-thumbnail-container">
+                  <img class="d-block img-fluid project-thumbnail"  src="./assets/images/projects/project2.jpg" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Project 2</h3>
+                    <p>Details about project 2 would go here</p>
+                  </div>
+                </div>
+                <div class="carousel-item project-thumbnail-container">
+                  <img class="d-block img-fluid project-thumbnail"  src="./assets/images/projects/project3.jpg" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Project 3</h3>
+                    <p>Details about project 3 would go here</p>
+                  </div>
+                </div>
               </div>
+              <a class="carousel-control-prev" href="#carouselProjects" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselProjects" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div class="content" id="work">
           <h2 class="content-head is-center">Work Experience</h2>
 
@@ -189,16 +189,16 @@
       </div>
       <div class="ribbon content" id="skills">
           <h2 class="content-head is-center">Skillset</h2>
-
           <div class="pure-g">
-              <div class="l-box pure-u-1">
-                <ul class='resume-subject-list'>
-                  <li>JavaScript </li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li> THIS SECTION NEEDS TO BE IMPROVED BUT WILL DO MORE WITH IT WHEN WE ADD JAVASCRIPT </li>
-                </ul>
-              </div>
+            <div class='pure-u-12-24 text-right'>
+              <canvas id='frontendChart' class='pie-chart-canvas'> </canvas>
+            </div>
+            <div class='pure-u-12-24 text-left'>
+              <canvas id='backendChart' class='pie-chart-canvas'> </canvas>
+            </div>
+            <div class='pure-u-1 text-center'>
+              <canvas id='extraChart' class='bar-chart-canvas'> </canvas>
+            </div>
           </div>
       </div>
       <div class="content" id="education">
@@ -243,7 +243,15 @@
         </div>
       </div>
     </div>
-
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"> </script>
+    <script src="./js/app.js"> </script>
   </body>
 </html>
