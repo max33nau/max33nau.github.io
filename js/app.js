@@ -54,9 +54,9 @@ var myCharts = {
     type:'doughnut',
     chart: [
       { label: 'Microsoft SQL Server', data: 20, color: '#1b5f5e' },
-      { label: 'C#', data: 20, color: '#b2d0c6' },
+      { label: 'C#', data: 60, color: '#b2d0c6' },
       { label: 'Python', data: 20, color: '#feb15f' },
-      { label: 'Node.js', data: 50, color: '#da4531' }
+      { label: 'Node.js', data: 20, color: '#da4531' }
     ]
   }),
   extra: new MyChart('extraChart', {

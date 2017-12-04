@@ -1,0 +1,88 @@
+.project-header {
+  margin: 0;
+  color: #333;
+  text-align: center;
+  padding: 4.5em 2em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.project-header h1 {
+  margin: 0.2em 0;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.project-header h2 {
+  font-weight: 300;
+  color: #ccc;
+  padding: 0;
+  margin-top: 0;
+}
+
+.project-qa-container {
+  margin-top: 20px;
+}
+
+.project-qa h6 {
+  color: #333;
+}
+
+.tasks-completed-header {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.change-container {
+  padding-bottom: 40px;
+}
+
+.ui-change-container {
+  margin: 10px 0px;
+  padding: 15px 5px;
+  border-top: 1px solid #ccc;
+}
+
+.before-after-header,
+.project-change-header,
+.project-change-description,
+.project-ui-change-description {
+  color: white;
+}
+
+.project-ui-change-description {
+  margin-bottom: 0;
+}
+
+.changes-to-select {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  margin-top: 10px;
+}
+
+.change-container {
+  display: none;
+}
+
+.view-changes {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.view-selected {
+  color: #0bff00;
+}
+
+.view-changes:hover {
+  color: #0bff00;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .project-header {
+    padding: 6.5em 2em 0;
+  }
+}

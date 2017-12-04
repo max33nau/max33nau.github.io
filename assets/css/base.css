@@ -38,6 +38,13 @@ html {
   margin-left: 10px;
 }
 
+.pure-menu-heading:hover {
+  background: none;
+  border: none;
+  text-decoration: none !important;
+  color: #0bff00;
+}
+
 .social-media-icon {
   font-size: 20px;
 }
@@ -124,6 +131,22 @@ a.pure-button-primary:hover {
 .project-thumbnail-container {
   max-height: 400px;
   min-height: 400px;
+}
+
+.carousel-caption p {
+  max-width: 350px; 
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+.project-link {
+  color: #0bff00;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #BBFFB7;
 }
 
 .carousel {
