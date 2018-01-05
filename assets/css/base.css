@@ -245,6 +245,14 @@ a.pure-button-primary:hover {
   margin-top: 50px;
 }
 
+.project-c-header-dark {
+  color: black;
+}
+
+.project-c-link-dark {
+  color: rgb(6, 48, 3);
+}
+
 
 
 /* MEDIUM SIZE AND BELOW DEVICES */
